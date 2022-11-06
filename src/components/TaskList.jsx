@@ -7,7 +7,7 @@ export default function TaskList() {
 
     return (
         <div className="flex justify-center">
-            <div className="w-6/12">
+            <div className="w-10/12">
                 {
                     state.sort((a, b) => { return a.title < b.title }).map((task) => (
                         <div className="relative bg-gray-900 p-5 text-white shadow-lg mb-4 flex justify-between" key={task.id}>
